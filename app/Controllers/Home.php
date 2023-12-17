@@ -5,6 +5,6 @@ class Home extends BaseController
 {
     public function index(): string
    {
-      return view('welcome_message');
+      return view('<h1>Codeingiter Host On GCP and Docker</h1>');
    }
 }
